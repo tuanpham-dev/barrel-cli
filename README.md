@@ -239,6 +239,18 @@ successfully compiled files...
 [upload] /dist/assets/vendors@layout.theme.js
 [upload] /dist/snippets/script-tags.liquid
 [upload] /dist/snippets/style-tags.liquid
+````
+
+9. SVG icons
+
+Place your SVG icons in `src/assets/icons`, preface the filename with
+the name `icon-`. E.g. `icon-cart.svg` and the icons will become
+available for use as snippets in your theme.
+
+Usage in liquid:
+
+```
+{%- include 'icon-cart' -%}
 ```
 
 ## API
